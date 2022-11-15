@@ -1,0 +1,294 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+  }
+
+.navbar .contact-form{
+  float: right ;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    min-height: 60px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    flex-basis: auto;
+    background: linear-gradient(0deg, rgba(0,0,0,0) 20%, rgba(0,0,0,0.9836309523809523) 45%, rgba(0,0,0,1) 100%);
+}
+
+#scroll{
+    margin-top: 50px;
+}
+
+  .navbar li{
+    float: left;
+    color: white;
+  }
+  .navbar li a{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 215%;
+    color: white;
+  }
+  .navbar li a:hover{
+    background-color: #222;
+  }
+
+.intro-1{
+  font-family: 'Cinzel', serif;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 20px;
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+                linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+                linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+                url('../img/metro_out.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.intro-1 p{
+  width: 20%;
+}
+
+.intro-2{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/city.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.intro-2 p{
+width: 20%;
+}
+
+.intro-3{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/train.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.intro-3 p{
+width: 20%;
+}
+
+.gif{
+  font-family: 'Spectral SC', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 28px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(90deg, rgba(1,1,1,1) 7%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 93%),
+              url('../img/weapons.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.world-1 h1{
+width: 20%;
+}
+
+.world-2{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/forest.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.world-2 h2{
+width: 20%;
+}
+
+.world-3{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/desert.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.world-3 h2{
+width: 20%;
+}
+
+.world-4{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/volga.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.world-4 h2{
+width: 20%;
+}
+
+.monster-1{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/watcher.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.monster-1 h2{
+width: 20%;
+}
+
+.monster-2{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/demon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.monster-2 h2{
+width: 20%;
+}
+
+.gameplay{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  background-color: black;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.gameplay{
+width: 20%;
+text-decoration: none;
+}
+
+.buy-it{
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  padding: 20px 20px;
+  background: linear-gradient(to bottom,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(to top,rgba(0,0,0,0) 0%, rgba(0,0,0,0) 89%, rgba(0,0,0,1) 100%),
+              linear-gradient(270deg, rgba(2,2,4,0) 0%, rgba(2,2,3,0) 64%, rgba(2,2,2,1) 79%, rgba(0,0,0,1) 100%),
+              url('../img/metro_forest.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.buy-it h2{
+width: 20%;
+text-decoration: none;
+}
